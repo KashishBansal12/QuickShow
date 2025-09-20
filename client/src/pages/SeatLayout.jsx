@@ -17,7 +17,8 @@ const SeatLayout = () => {
 
   const navigate = useNavigate()
 
-  const getShow = async () => {
+  // const getShow = async () => {
+    const getShow = ()=>{
     const show = dummyShowsData.find(show => show._id === id)
     if (show) {
       setShow({
