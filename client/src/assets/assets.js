@@ -3,7 +3,7 @@ import marvelLogo from './marvelLogo.svg'
 import googlePlay from './googlePlay.svg'
 import appStore from './appStore.svg'
 import screenImage from './screenImage.svg'
-// profile from './profile.png'
+import profile from './profile.png'
 
 export const assets = {
     logo,
@@ -11,7 +11,7 @@ export const assets = {
     googlePlay,
     appStore,
     screenImage,
-    //profile
+    profile
 }
 
 export const dummyTrailers = [
@@ -293,7 +293,7 @@ export const dummyDashboardData = {
 export const dummyBookingData = [
     {
         "_id": "68396334fb83252d82e17295",
-        "user": { "name": "GreatStack", },
+        "user": { "name": "Kashish", },
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: dummyShowsData[0],
@@ -306,7 +306,7 @@ export const dummyBookingData = [
     },
     {
         "_id": "68396334fb83252d82e17295",
-        "user": { "name": "GreatStack", },
+        "user": { "name": "ABCDE", },
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: dummyShowsData[0],
